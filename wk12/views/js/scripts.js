@@ -15,6 +15,7 @@ function draw(){
             cache: false,
             success: function(html) {
                 $("#results").append(html);
+                output = html;
             }
         });
 
